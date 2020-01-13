@@ -8,6 +8,10 @@ import { EventBus } from '@/event-bus.js';
 //emitowanie
 EventBus.$emit('nav', '');
 
+//event-bus.js
+import Vue from 'vue';
+export const EventBus = new Vue();
+
 //odbieranie
 EventBus.$on('nav', payload => {
     this.showIn();
