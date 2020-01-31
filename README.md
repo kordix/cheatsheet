@@ -17,3 +17,11 @@ EventBus.$on('nav', payload => {
     this.showIn();
     });
 ```   
+
+#slice
+
+  arr = ['a','b','c','d','e','f','g'];
+  console.log(arr.slice(1)); -> ['b','c','d','e','f','g'];
+  console.log(arr.slice(0,1)); -> ['a'];
+  console.log(arr.slice(0,-2))->["a", "b", "c", "d", "e"];
+  console.log(arr.splice(arr.length-2,arr.length))->["f", "g"] ;
