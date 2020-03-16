@@ -1,6 +1,7 @@
 # cheatsheet
 #authentication
 https://laravel.com/docs/6.x/authentication
+
 #routy
 https://laravel.com/docs/5.7/controllers#resource-controllers
 
