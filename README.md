@@ -28,4 +28,9 @@ EventBus.$on('nav', payload => {
   console.log(arr.slice(0,1)); -> ['a'];
   console.log(arr.slice(0,-2))->["a", "b", "c", "d", "e"];
   console.log(arr.slice(arr.length-2))->["f", "g"] ;
+  
+  let deleted = arr.splice(2,2)->["c","d"]
+  arr = ['a','b','e','f','g'];
+    
+  
 ```  
