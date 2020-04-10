@@ -46,7 +46,6 @@ EventBus.$on('nav', payload => {
         if(localStorage.activesection){
             this.activesection = localStorage.activesection;
         }
-
     },
 ```    
 
