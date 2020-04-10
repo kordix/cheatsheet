@@ -34,3 +34,19 @@ EventBus.$on('nav', payload => {
     
   
 ```  
+
+#localstorage 
+```
+  watch:{
+        activesection(val){
+            localStorage.activesection = val
+        }
+    },
+    mounted(){
+        if(localStorage.activesection){
+            this.activesection = localStorage.activesection;
+        }
+
+    },
+```    
+
